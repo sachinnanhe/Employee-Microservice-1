@@ -29,8 +29,4 @@ public class EmployeeServiceImpl implements IEmployeeService {
 		return list.stream().filter(employee->employee.geteId().equals(id)).findAny().orElse(null);
 	}
 	
-	
-	
-	
-
 }
